@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity">
+
+    <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_detailNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/team_nmber"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/team_name"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailNumber" />
+
+        <TextView
+            android:id="@+id/tv_detailDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/drive_train"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detailName" />
+
+    <TextView
+        android:id="@+id/tv_detailHatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/hatches"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailDrive" />
+
+    <TextView
+        android:id="@+id/tv_detailCargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/cargo_type"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailHatch" />
+
+    <TextView
+        android:id="@+id/tv_detailReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/reload"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailCargo" />
+
+    <TextView
+        android:id="@+id/tv_detailCanStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/can_start"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailReload" />
+
+    <TextView
+        android:id="@+id/tv_detailPrefStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/pref_start"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailCanStart" />
+
+    <TextView
+        android:id="@+id/tv_detailClimb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/climb"
+        android:textSize="@dimen/detail_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detailPrefStart" />
+
+        <TextView
+            android:id="@+id/tv_detailSandstorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/sand_storm"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detailClimb" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detailPreLoadRobot"
+            android:text="@string/rbt_pload"
+            android:textSize="@dimen/detail_text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detailSandstorm" />
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detailPreLoadPod"
+            android:text="@string/rbt_pload"
+            android:textSize="@dimen/detail_text"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detailPreLoadRobot" />
+
+        <ImageView
+            android:id="@+id/iv_detailPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detailPreLoadPod"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/tv_dispNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/team_nmber"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailNumber"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_dispName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/team_name"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailName"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispNumber" />
+
+        <TextView
+            android:id="@+id/tv_dispDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/drive_train"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailDrive"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispName" />
+
+        <TextView
+            android:id="@+id/tv_dispHatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/hatches"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailHatch"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispDrive" />
+
+        <TextView
+            android:id="@+id/tv_dispCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/cargo_type"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailCargo"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispHatch" />
+
+        <TextView
+            android:id="@+id/tv_dispReload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/reload"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailReload"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispCargo" />
+
+        <TextView
+            android:id="@+id/tv_dispCanStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/can_start"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailCanStart"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispReload" />
+
+        <TextView
+            android:id="@+id/tv_dispPrefStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/pref_start"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailPrefStart"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispCanStart" />
+
+        <TextView
+            android:id="@+id/tv_dispClimb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/climb"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailClimb"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispPrefStart" />
+
+        <TextView
+            android:id="@+id/tv_dispSand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/sand_storm"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailSandstorm"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispClimb" />
+
+        <TextView
+            android:id="@+id/tv_dispRobPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/rbt_pload"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailPreLoadRobot"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispSand" />
+
+        <TextView
+            android:id="@+id/tv_dispPodPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/pod_pload"
+            android:textSize="@dimen/detail_text"
+            app:layout_constraintStart_toEndOf="@+id/tv_detailPreLoadPod"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dispRobPre" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

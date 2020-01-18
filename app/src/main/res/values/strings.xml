@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">FRC Deep Space Scouting</string>
+    <string name="new_team_btn">Add New Team</string>
+    <string name="view_btn">View Teams</string>
+    <string name="view_single_btn">View Single Team</string>
+    <string name="single_team_hint">Enter Team Number</string>
+    <string name="team_nmber">Team #</string>
+    <string name="team_name">Team Name </string>
+    <string name="drive_train">Drive Train</string>
+    <string name="cargo_type">Cargo</string>
+    <string name="reload">Reload</string>
+    <string name="can_start">CAN Start</string>
+    <string name="pref_start">PREF Start</string>
+    <string name="climb">Climbing</string>
+    <string name="sand_storm">Sandstorm</string>
+    <string name="rbt_pload">Robot Pre-Load</string>
+    <string name="pod_pload">Pod Pre-Load</string>
+    <string name="rbt_photo">Robot Photo</string>
+    <string name="matches"> Number of Matches</string>
+    <string name="ttl_score">Total Score</string>
+    <string name="ttl_wins">Total Wins</string>
+    <string name="ttl_rp">Total Ranking Points</string>
+    <string name="hatches">Hatch Panels</string>
+    <string name="team_name_hint">Enter Team Name</string>
+    <string name="submit_new">Add Team To Database</string>
+    <string name="submit_view">View All Teams</string>
+    <string name="delete">Clear Database</string>
+    <string name="search_settings">Search Settings</string>
+    <string name ="root_title">Preferences</string>
+    <string name="search_option">Search Options</string>
+
+    <string-array name="DriveTrain">
+        <item>Select Drive Train</item>
+        <item>Tank 4 Wheel</item>
+        <item>Tank 6 Wheel</item>
+        <item>Tank Treads</item>
+        <item>Arcade 4 Weel</item>
+        <item>Arcade 6 Wheel</item>
+        <item>Arcade Tread</item>
+        <item>Mecanum</item>
+        <item>Omni</item>
+    </string-array>
+
+    <string-array name="Hatches">
+        <item>Select Hatch Panel Option</item>
+        <item>Cannot Place Hatch Panels</item>
+        <item>1st Level Only</item>
+        <item>1st and 2nd Level</item>
+        <item>1st, 2nd, and 3rd Level</item>
+        <item>2nd Level Only</item>
+        <item>2nd and 3rd Level</item>
+        <item>3rd Level Only</item>
+
+    </string-array>
+
+    <string-array name="Cargo">
+        <item>Select Cargo Option</item>
+        <item>Cannot Place Cargo</item>
+        <item>1st Level Only</item>
+        <item>1st and 2nd Level</item>
+        <item>1st, 2nd, and 3rd Level</item>
+        <item>2nd Level Only</item>
+        <item>2nd and 3rd Level</item>
+        <item>3rd Level Only</item>
+    </string-array>
+
+    <string-array name="Reload">
+        <item>Select Reload Option</item>
+        <item>Cannot Reload</item>
+        <item>Loading Bay Only</item>
+        <item>Floor Only</item>
+        <item>Both Loading Bay and Floor</item>
+    </string-array>
+
+    <string-array name="Can_Start">
+        <item>Select Can Start Option</item>
+        <item>1st Level Only</item>
+        <item>1st and 2nd Level</item>
+        <item>2nd Level Only</item>
+    </string-array>
+
+    <string-array name="Pref_Start">
+        <item>Select Preferred Starting Option</item>
+        <item>1st Level</item>
+        <item>2nd Level</item>
+
+    </string-array>
+
+    <string-array name="Climb">
+        <item>Select Climbing Option</item>
+        <item>1st Level Only</item>
+        <item>1st and 2nd Level</item>
+        <item>1st, 2nd, and 3rd Level</item>
+    </string-array>
+
+    <string-array name="SandStorm">
+        <item>Select Sandstorm Option</item>
+        <item>Autonomous FWD</item>
+        <item>Autonomous FWD and Score</item>
+        <item>Camera FWD</item>
+        <item>Camera FWD and Score</item>
+        <item>No Sandstorm capability</item>
+    </string-array>
+
+    <string-array name="robot_preload">
+        <item>Select Robot Preload Option</item>
+        <item>No PreLoad</item>
+        <item>Hatch Panel</item>
+        <item>Cargo</item>
+
+    </string-array>
+    <string-array name="pod_preload">
+        <item>Select Pod Preload Option</item>
+        <item>No Preload</item>
+        <item>Hatch Panel</item>
+        <item>Cargo</item>
+
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

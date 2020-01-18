@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="search_list">
+        <item>All</item>
+        <item>Climb-2</item>
+        <item>Climb-3</item>
+        <item>Reload-Ground</item>
+        <item>Start-2</item>
+        <item>Cargo-Primary</item>
+        <item>Hatch-Primary</item>
+
+    </string-array>
+    <string-array name="search_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

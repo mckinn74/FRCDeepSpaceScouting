@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="entry_text">40sp</dimen>
+    <dimen name="typed_text">25sp</dimen>
+    <dimen name="spinner_text">70sp</dimen>
+    <dimen name="detail_text">50sp</dimen>
+</resources>
